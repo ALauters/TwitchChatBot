@@ -7,15 +7,15 @@ enabled raspberry pi.
 # Get Environment Variables
 To start, you’ll need three environment variables:
 
-# USERNAME
+USERNAME
 
 The account (username) that the chatbot uses to send chat messages. This can be your Twitch account. Alternately, many developers choose to create a second Twitch account for their bot, so it's clear from whom the messages originate.
 
-# CHANNEL_NAME
+CHANNEL_NAME
 
 The Twitch channel name where you want to run the bot. Usually this is your main Twitch account.
 
-# PASSWORD	
+PASSWORD	
 
 The token to authenticate your chatbot with Twitch's servers. Generate this with https://twitchapps.com/tmi/ (a Twitch community-driven wrapper around the Twitch API), while logged in to your chatbot account. The token will be an alphanumeric string. DO NOT INCLUDE OATH:
 

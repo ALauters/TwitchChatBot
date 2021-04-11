@@ -4,6 +4,28 @@ This is a basic bot to interact with chat on Twitch
 I have this running on a raspberry pi zero but it should be able to work with any wifi
 enabled raspberry pi.
 
+I am using the latest version of raspbian with desktop located here
+
+https://www.raspberrypi.org/software/operating-systems/
+
+You will also need to have npm and node installed by doing
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install nodejs npm
+```
+I am running node v10.21.0 and npm 5.8.0
+
+Once that is installed run the following to install libraries
+```
+$ npm install tmi.js
+$ npm install onoff
+```
+https://www.npmjs.com/package/tmi.js
+
+https://www.npmjs.com/package/onoff
+
+
 # Get Environment Variables
 To start, you’ll need three environment variables:
 
@@ -23,7 +45,7 @@ Example password
 
 oath:twitch12345
 
-What you use as password
+What you should use as password
 
 twitch12345
 
